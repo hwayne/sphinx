@@ -2633,6 +2633,10 @@ so the HTML options also apply where appropriate.
           ('index.html', 'Welcome'),
       ]
 
+   .. warning::
+
+      Content files *must* be ``.xhtml``. ``.html`` files will be ignored.
+
 .. confval:: epub_post_files
    :type: :code-py:`Sequence[tuple[str, str]]`
    :default: :code-py:`()`
